@@ -1,0 +1,12 @@
+{
+  "/Users/bob/dev/github/DataNexus/apps/desktop/electron/main.ts": {
+    "hash": "3fec5f21808ebe5475b9d52bbbf5b2a5963f6d7985f0e770f85d432012ef6978",
+    "mtime": 1777095885788.2354,
+    "size": 4665
+  },
+  "/Users/bob/dev/github/DataNexus/apps/desktop/electron/preload.ts": {
+    "hash": "c61f90f8842e05bb0ff900b1221df927076a5b44caee0e3dd606ee31526f3115",
+    "mtime": 1777095893088.9192,
+    "size": 453
+  }
+}

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0a0a0a;
+  color: #e5e7eb;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  margin: 0;
+}
+
+.react-flow__background {
+  background: #0a0a0a;
+}
+
+@keyframes node-pulse {
+  0%, 100% { box-shadow: 0 0 4px currentColor; }
+  50% { box-shadow: 0 0 12px currentColor; }
+}
+
+@keyframes node-glow {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.node-pulse {
+  animation: node-pulse 2s ease-in-out infinite;
+}
+
+.node-glow {
+  animation: node-glow 1.5s ease-in-out infinite;
+}
